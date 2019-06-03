@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Day and Night !</title>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+
+<div class="toggle"></div>
+
+
+<div class="content">
+    <h1 align="center">🌞 Day or Night? 🌝</h1>
+    <p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum metus nunc, a imperdiet dolor malesuada in. Pellentesque bibendum dignissim magna sed porttitor. Duis ullamcorper dolor sem, vitae congue diam volutpat quis. Sed ut orci ut enim tincidunt convallis. Proin cursus mauris eu ultrices hendrerit. Cras et odio vel leo interdum bibendum. Sed dapibus magna et quam euismod vestibulum. Nam malesuada massa at tincidunt vehicula. Etiam hendrerit nec sapien id volutpat.
+	<br><br>
+    <img src="day&night.png">
+    <br>
+	Nullam quis finibus quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis at laoreet velit. Ut cursus, libero ut rhoncus scelerisque, quam mi ullamcorper dui, sed pellentesque diam magna et odio. Pellentesque tincidunt rutrum nulla, pellentesque fermentum dolor pellentesque quis. Vivamus convallis dolor id metus dapibus, et dictum turpis tempus. Praesent vehicula sed nisi ac sollicitudin. Sed vehicula malesuada orci, placerat imperdiet justo sodales venenatis. Proin eu dapibus diam. Aliquam rhoncus mi at tellus fermentum ultrices. Nam nec fermentum massa. Etiam non accumsan odio, ac fringilla mauris. Vivamus eu mi sem. Fusce a mauris eget nisi consequat facilisis.</p><br><br>
+ 
+</div>
+
+
+</body>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script type="text/javascript">
+
+    $(document).ready(function(){
+        $('.toggle').click(function(){
+            $('.toggle').toggleClass('active')
+            $('body').toggleClass('night')
+        })
+    })
+
+</script>
+
+</html>
